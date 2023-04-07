@@ -1,0 +1,772 @@
+/* responsive */
+
+@media screen and (max-width: 1310px) {
+  .sync_search_calendar {
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 1111px) {
+    .sync-modal-personal-info .payment-info .billing-address .sync_components div input, 
+    .sync-modal-personal-info .payment-info .billing-address .sync_components div select {
+        width: calc(100% - 23px);
+    }
+    .selectdiv {
+        width: 100%;
+    }
+
+    .sync-modal-personal-info .payment-info .credit-card .sync_components .credit-card-info div .ccv, 
+    .sync-modal-personal-info .payment-info .credit-card .sync_components .credit-card-info div .expires {
+        width: 100%;
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 1105px) {
+    #search_hotel_room {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .sync-holder-field {
+      /*display: inline-flex;*/
+    }
+}
+
+@media screen and (max-width: 1085px) {
+    #search_hotel_room {
+        width: 100%;
+     } 
+}
+
+@media (min-width: 1031px) {
+  #search_car_rental .sync_components-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .find-car {
+    width: 20% !important;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+
+    .sync_form_wrapper .sync_components .holder input {
+        width: 100%;
+        display: inline-block;
+    }
+    .sync_form_wrapper .sync_components .holder {
+        float: none;
+        width: 98%;
+        display: table;
+        margin: 0px 5px;
+    }
+    .holder-check-availability {
+        width: 250px !important;
+        margin: auto !important;
+    }
+    .sync_form_wrapper .sync_components {
+        padding: 20px 15px;
+    }
+    #search_car_rental .select2 {
+        width:100%!important;
+    }
+
+    .sync_hotel_wrapper .sync_components .holder {
+        float: left;
+        width: 100px;
+        margin: 0px 5px;
+    }
+
+    .sync_form_wrapper .sync_components .holder-check-room { width: 200px; }
+
+    
+    #search_hotel_room .holder.holder-check-out.no-border { margin-top: 10px !important; }
+}
+
+/* @media (max-width: 1049px) {
+  .sync_form_wrapper .sync_components .holder.holder-guest-number { width: 120px; }
+} */
+
+@media screen and (max-width: 1000px) {
+  #restau_menu_info .list-row {
+    float: none;
+  }
+  #restau_menu_info .list-row.first-row {
+    float: left;
+  }
+  #restau_menu_info .list-row.second-row {
+    float: left;
+  }
+  #restau_menu_info .list-row.third-row {
+    width: auto;
+    display: table;
+  }
+  #restau_menu_info .list-row.fourth-row {
+    width: 100%;
+    border-bottom: 1px solid var(--primary-theme-color);
+    float: right;
+    margin: 10px 0px;
+    margin-right: 10px;
+  }
+  #restau_menu_info .row-1 .sync_components .special-request {
+    margin: 0px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 909px) {
+    #restau_menu_info .list-row.third-row {
+        margin-top: 10px;
+    }
+    #restau_menu_info .list-row.second-row {
+      float: none !important;
+          width: 100%;
+    }
+
+    #restau_menu_info .list-row.second-row img {
+      height: 200px;
+      width: 200px;
+    }
+
+    #restau_menu_info .list-row.first-row {
+      width: 30px;
+    }
+
+    .sync_form_wrapper.restau_wrapper .timeslot-item {
+      width: 100%;
+      min-height: auto;
+      border: 1px solid #d6d6d6;
+      border-top: 0px;
+    }
+    .timeslot-item p {
+        width: 5%;
+        line-height: 14px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .sync_form_wrapper.restau_wrapper .timeslot-item:first-child,
+    .sync_form_wrapper.restau_wrapper .timeslot-item:last-child {
+        border-radius: 0px;
+    }
+
+    .sync_form_wrapper.restau_wrapper .timeslot-item:last-child {
+      border-radius: 0px 0px 15px 15px ;
+    }
+
+    .sync_form_wrapper.restau_wrapper .timeslot-item:first-child {
+        border-radius: 15px 15px 0px 0px;
+        border-top: 1px solid #d6d6d6;
+    }
+
+    .sync_form_wrapper.restau_wrapper .first-column.timeslot {
+        margin-bottom: 30px;
+        padding: 0px 30px;
+        display: table;
+        width: 100%;
+    }
+
+    .sync_hotel_wrapper .sync_components .holder.holder-night input,
+    .sync_hotel_wrapper .sync_components .holder.holder-guest-number input { 
+        width: 100% !important;
+    }
+    .sync_hotel_wrapper .sync_components .holder,
+    .sync_hotel_wrapper .sync_components .holder.holder-night,
+    .sync_hotel_wrapper .sync_components .holder.holder-guest-number {
+        width: calc(100% - 10px) !important;
+    }
+
+    .sync_hotel_wrapper .sync_components .holder.holder-check-room {
+        text-align: center;
+    }
+
+    .sync_hotel_wrapper .sync_components .holder.holder-check-room .find-room{
+        width: 300px;
+        margin: auto;
+    }
+
+    .sync_form_wrapper.restau_wrapper .column.first {
+        width: 100%;
+    }
+
+    .sync_form_wrapper.restau_wrapper .column.second {
+       width: 100%;
+    }
+
+    .sync_form_wrapper.restau_wrapper .third-column.submit-button {
+      width: 100%;
+    }
+
+    .sync_form_wrapper.restau_wrapper .column.second {
+      min-height: 600px;
+    }
+
+    .sync_form_wrapper.restau_wrapper .second-column.form .table_guest div {
+      width: 50%;
+    }
+
+    .sync_form_wrapper.restau_wrapper .timeslot-box { 
+      flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 881px) {
+  .find-room {
+    width: 20% !important;
+  }
+}
+
+@media screen and (max-width: 880px) {
+    .sync-holder-field { display: block !important; }
+    .sync_form_wrapper .sync_components #search_hotel_room .holder.holder-check-room { display: flex; }
+    .sync_form_wrapper.car-rental-wrapper .sync_components #search_car_rental .holder-check-availability { display: flex; flex-direction: row-reverse; }
+    .sync_form_wrapper .sync_components #search_hotel_room .holder.holder-check-room .find-room { width: 30vw !important; } 
+    .sync_form_wrapper.car-rental-wrapper .sync_components #search_car_rental .holder-check-availability .find-car { width: 30vw !important; } 
+    .sync_form_wrapper .sync_components #search_car_rental .holder { width: 100%; }
+ 
+    .sync-modal-personal-info .billing-address-info .address_1, 
+    .sync-modal-personal-info .billing-address-info .address_2, 
+    .sync-modal-personal-info .billing-address-info .province, 
+    .sync-modal-personal-info .billing-address-info .city, 
+    .sync-modal-personal-info .billing-address-info .postal-code {
+        display: table;
+        width: 100%;
+        float: none;
+    }
+    #restau_menu_info .list-row.fourth-row p {
+        zoom: 2;
+    }
+
+    #restau_menu_info .list-row.fourth-row p {
+      margin-top: 0px;
+      font-size: 8px !important;
+    }
+    #restau_menu_info .list-row.fourth-row {
+      width: auto;
+      width: 100%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .special-request-others {
+    float: none;
+  }
+  
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .special-request-others textarea {
+    width: 100%;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .car-cost .date, 
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .car-cost .pricing-details,
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .car-cost .pickup,
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .car-cost .beds {
+    text-align: center;
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .car-cost p {
+    font-size: 26px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .car-cost .date p span {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .car-cost p span {
+    font-size: 26px;
+  }
+
+  .sync-modal-personal-info .car-name {
+    text-align: center;
+  }
+
+  .sync-modal-personal-info .customer-info .sync_components .car-name h2 {
+    font-size: 30px;
+  }
+
+  .sync-modal-personal-info .car-name span {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .sync-modal-personal-info .customer-info.car-customer-info .row-1 .sync_components .car-profile img {
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .sync-modal-personal-info .personal-holder-car {
+    min-height: 450px;
+  }
+
+  .sync_components.footer-holder-hotel {
+    min-height: 420px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-cost .date, 
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-cost .guest, 
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-cost .rooms, 
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-cost .pricing-details,
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-cost .beds  {
+    text-align: center;
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-cost p span {
+    font-size: 26px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-cost .date span:last-child {
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-cost p {
+    font-size: 26px;
+  }
+
+  .sync-modal-personal-info .amenities {
+    font-size: 26px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .room-profile span {
+    font-size: 16px;
+  }
+
+  .sync-modal-personal-info .row-1.first-row.sync-food-banner {
+      border-radius: 10px 10px 0px 0px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components {
+     display: block;
+  }
+
+  .sync-modal-personal-info .customer-info {
+      display: block;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 {
+      width: 100%;
+      float: none;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1.second-row {
+      width: unset;
+  }
+
+  .search-result-container .result-item {
+
+  }
+
+  .search-result-container .result-image img {
+      width: 360px;
+  }
+
+  .sync-modal-personal-info .payment-info .row-1 {
+     width: 100%;
+  }
+
+  .sync-modal-personal-info .payment-info .row-1 .sync_components {
+      display: block;
+  }
+
+  .sync-modal-personal-info .payment-info .row-1 .sync_components .credit-card-info {
+      display: flex;
+  }
+
+  .sync-modal-personal-info .payment-info .credit-card .sync_components .credit-card-info div .ccv {
+      float: right
+  }
+
+  #restau_menu_info .customer-info .first-row .sync_components:first-child img,
+  #restau_menu_info .customer-info .first-row .sync_components:first-child {
+      border-radius: 10px 10px 0px 0px;
+      height: 300px;
+  }
+  #restau_menu_info .customer-info .second-row .sync_components:first-child {
+      border-radius: 0px 0px 10px 10px;
+  }
+  #restau_menu_info .customer-info .first-row .sync_components:first-child {
+      text-align: center;
+  }
+  #restau_menu_info .customer-info .first-row .sync_components:first-child img {
+      width: 655px;
+  }
+  #restau_menu_info #tab .tab-content .special-request { margin-bottom: 20px; border-bottom: 1px solid var(--primary-theme-color); }
+  #restau_menu_info .list-row.first-row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  #restau_menu_info .list-row.second-row {
+    width: 50%;
+    float: left !important;
+  }
+  #restau_menu_info .list-row.third-row {
+    width: 90%;
+    float: none;
+    margin: auto;
+  }
+  #restau_menu_info .list-row.fourth-row {
+    width: 100%;
+    margin: 0px;
+    margin-right: 10px;
+    border: none;
+  }
+
+  #restau_continue_payment .third-row h2 {
+    margin: 10px 0px;
+  }
+
+
+
+}
+
+@media screen and (max-width: 755px) {
+
+    .car-rental-wrapper .sync_components #search_car_rental .sync_components-container .holder.holder-check-availability {
+    }
+
+    .car-rental-wrapper .sync_components #search_car_rental .sync_components-container {
+        margin: auto;
+    }
+
+    .search-result-container .center-wrapper {
+        display: grid;
+    }
+    #search_car_rental {
+        min-width: 200px;
+    }
+
+    #search_hotel_room {
+        min-width: 200px;
+    }
+    .sync_hotel_wrapper .sync_components .holder.holder-check-room .find-room {
+      width: 100%;
+    }
+
+    .sync_form_wrapper .sync_components .holder { 
+      width: calc(100% - 10px) !important;
+    }
+    #reserved_table {
+      min-width: 200px;
+    }
+
+    .sync_form_wrapper .quantity-nav {
+      width: 0px !important;
+    }
+
+    .sync_form_wrapper.restau_wrapper .second-column.form p input {
+      width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 685px) {
+    .sync-result-lists.search-result-container .result-item {
+      width: 90%;
+    }
+
+    .sync-result-lists.search-result-container .result-image img {
+        width: 650px;
+    }
+
+}
+
+@media screen and (max-width: 567px) {
+  .sync_form_wrapper .sync-container {
+    max-width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 525px) {
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .personal-info {
+      width: 100%;
+      float: none;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-payment p {
+    width: auto;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-payment .payment {
+      float: none;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .special-request-others {
+      float: none;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .special-request-others textarea {
+    width: 200px;
+  }
+
+  .sync-modal-personal-info .payment-info .credit-card .sync_components .credit-card-info div .ccv, .payment-info .credit-card .sync_components .credit-card-info div .expires {
+      width: 100%;
+      float: none;
+      margin: 0px;
+  }
+  
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-subtotal p span {
+    margin-top: 10px;
+    position: relative;
+    display: table;
+    margin-left: 15px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-total p span {
+    position: relative;
+    display: table;
+    margin-top: 20px;
+    margin-left: 15px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-subtotal p span  { position: relative; right: 0 !important;}
+  .sync_hotel_wrapper .go_back { position: relative; }
+  .car-rental-wrapper .go_back { position: relative; }
+  .restau_wrapper .go_back { position: relative; }
+  .sync_check_rental .go_back { position: relative; }
+  .sync_check_booking .go_back { position: relative; }
+  .sync_check_reservation .go_back { position: relative; }
+  .sync_check_reservation .get_reference { padding-bottom: 40px; }
+  .sync_check_booking .get_reference { padding-bottom: 40px; }
+  .sync_check_rental .get_reference { padding-bottom: 40px; }
+}
+
+@media (max-width: 525px) {
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-subtotal p span  { right: 15px !important;}
+}
+
+@media screen and (max-width: 495px) {
+  #restau_menu_info .list-row.second-row {
+    width: auto;
+  }
+
+  #restau_menu_info .list-row.third-row {
+    float: none;
+    width: 100%;
+    padding-right: 10px;
+  }
+
+  #restau_menu_info .list-row.fourth-row {
+    margin: 10px 0px;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .sync_container { width: auto !important; }
+  .sync_form_wrapper.restau_wrapper .first-column.calendar { padding: 0px 0px; }
+}
+
+@media screen and (max-width: 320px) {
+  #restau_menu_info .customer-info .first-row .sync_components:first-child img {
+    height: auto;
+  }
+
+  #restau_menu_info .customer-info .first-row .sync_components:first-child {
+    height: auto;
+  }
+
+  .customer-info .row-1 .sync_components .book-summary-total p,
+  #restau_menu_info .customer-info .row-1 .sync_components .book-summary-total p span {
+    font-size: 16px;
+  }
+
+  #restau_menu_info .list-row.third-row {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  #restau_menu_info .list-row.fourth-row {
+    width: 100%;
+  }
+
+  #restau_menu_info .list-row.first-row {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #restau_menu_info .list-row.first-row {
+    width: 100%;
+  }
+
+  .search-result-container .result-item {
+    width: 300px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-payment .payment button {
+    padding: 10px 28px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components {
+    padding: 10px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-subtotal p span {
+    position: relative;
+    display: table;
+    margin-top: 10px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-payment .payment {
+    text-align: center;
+  }
+
+  .modal-bodyy {
+    padding: 0px;
+  }
+
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .book-summary-subtotal p span:nth-child(2) {
+    right: 0px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .sync_components.footer-holder-hotel .add_coupon { flex-direction: column; width: 100%; }
+  .sync_components.footer-holder-hotel .add_coupon #choice { margin: 10px auto; max-width: 100%; }
+  .sync_components.footer-holder-hotel .add_coupon #coupon_field { margin: 0px auto; width: 100% !important; }
+
+  .sync_components.personal-holder-car .add_coupon_car { flex-direction: column; width: 100%; }
+  .sync_components.personal-holder-car .add_coupon_car #choice { margin: 10px auto; max-width: 100%; }
+  .sync_components.personal-holder-car .add_coupon_car #coupon_field_car { margin: 0px auto; width: 100% !important; }
+
+  #hotel_tab .request_div select { max-width: 100%; width: 100%; }
+  #car_tab .request_div_car select { max-width: 100%; width: 100%; }
+
+  #sync_hotel_color #hotel_theme_color  { display: flex; width: 100%; }
+  #sync_hotel_color #hotel_theme_color span  { display: flex; width: 60%; }
+  
+  #sync_hotel_color #hotel_theme_color_hover  { display: flex; width: 100%; }
+  #sync_hotel_color #hotel_theme_color_hover span  { display: flex; width: 60%; }
+  
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .add_coupon_restau { flex-direction: column; }
+  .sync-modal-personal-info .customer-info .row-1 .sync_components #coupon_field_restau { width: 100%; }
+  .sync_components #choice { margin: 10px auto 0; }
+
+  #confirm_stripe .modal-content { max-width: 80%; }
+  #confirm_stripe .modal-bodyy { padding-bottom: 7%; }
+
+  .main.header-logo { text-align: center; padding: 1px 10px; margin-left: -10px; }
+  .sync-entries-title { margin-left: 0; text-align: center; }
+
+}
+
+@media (max-width: 420px) {
+  .sync-modal-personal-info .customer-info .sync_with_driver_container { min-height: 400px; }
+  .sync-modal-personal-info .customer-info .row-1 .sync_components .personal-info { width: 100%; float: none; }
+
+  .sync_backend_entries #content1 .sync_search_calendar { display: flex; }
+  .sync_backend_entries #content1 .fc-toolbar { display: flex; }
+  .sync_backend_entries #content1 .fc-toolbar .fc-right { display: flex; flex-direction: column;}
+
+  .sync_backend_entries #content2 .sync_search_calendar { display: flex; }
+  .sync_backend_entries #content2 .fc-toolbar { display: flex; }
+  .sync_backend_entries #content2 .fc-toolbar .fc-right { display: flex; flex-direction: column;}
+
+  .sync_backend_entries #content3 .sync_search_calendar { display: flex; }
+  .sync_backend_entries #content3 .fc-toolbar { display: flex; }
+  .sync_backend_entries #content3 .fc-toolbar .fc-right { display: flex; flex-direction: column;}
+}
+
+@media (max-width: 600px) {
+  #wpwrap header.main.main.header-logo { padding-top: 46px; padding-bottom: 30px; }
+  #wpbody { padding-top: 0; }
+}
+@media (max-width: 678px) {
+  #generate_cpn .cpn_details .title_value { display: flex; flex-direction: column; width: 100%; }
+  #generate_cpn .cpn_details .quantity_expDate { display: flex; flex-direction: column; width: 100%; }
+
+  #generate_cpn .cpn_details .title_div { display: flex; flex-direction: column; width: 100%; }
+  #generate_cpn .cpn_details .value_div { display: flex; flex-direction: column; width: 100%; }
+
+  #generate_cpn .cpn_details .quantity_div { display: flex; flex-direction: column; width: 100%; }
+  #generate_cpn .cpn_details .exp_date { display: flex; flex-direction: column; width: 100%; }
+
+  #generate_cpn #coupon_value { width: 100%;}
+  #generate_cpn input#date_expire { width: 100%; }
+  #generate_cpn #coupon_title { width: 100%;} 
+  #generate_cpn #coupon_quantity { width: 100%; }
+
+  #generate_cpn_car .cpn_details .title_value { display: flex; flex-direction: column; width: 100%; }
+  #generate_cpn_car .cpn_details .quantity_expDate { display: flex; flex-direction: column; width: 100%; }
+
+  #generate_cpn_car .cpn_details .title_div { display: flex; flex-direction: column; width: 100%; }
+  #generate_cpn_car .cpn_details .value_div { display: flex; flex-direction: column; width: 100%; }
+
+  #generate_cpn_car .cpn_details .quantity_div { display: flex; flex-direction: column; width: 100%; }
+  #generate_cpn_car .cpn_details .exp_date { display: flex; flex-direction: column; width: 100%; }
+
+  #generate_cpn_car #coupon_value { width: 100%;}
+  #generate_cpn_car input#date_expire { width: 100%; }
+  #generate_cpn_car #coupon_title { width: 100%;} 
+  #generate_cpn_car #coupon_quantity { width: 100%; }
+
+  .sync_backend_premium .premium-container .buy_section { flex-direction: column; }
+  .sync_backend_premium .premium-container .license_section #submit_hotel_license input,
+  .sync_backend_premium .premium-container .license_section #submit_car_license input,
+  .sync_backend_premium .premium-container .license_section #submit_restau_license input { width: 100%; }
+  .notice-error.error_license { width: 100%; }
+
+  .sync_backend_premium i.fa-eye { top: 38px; right: 12px; }
+  .sync_backend_premium i.fa-eye-slash { top: 38px; right: 12px; }
+}
+
+@media (max-width: 768px) {
+  .sync_form_wrapper .sync_components .holder .night.night-text { margin-right: 57px; }
+  #search_hotel_room .quantity-nav { position: unset;  }
+  #search_hotel_room .quantity-button.quantity-up { top: 25px; right: 0px; border-bottom: none; padding-top: 5px; }
+  #search_hotel_room .quantity-button.quantity-down { top: 25px; padding-top: 5px; }
+  #search_hotel_room .quantity-button { width: 25px; font-size: 15px; height: 56%; background: #ddd; }
+  #confirm_payment .modal-header .close { margin-right: 10px; }
+
+  #sync_form_authorize .sync_authorize_id, 
+  #sync_form_authorize .sync_authorize_key,
+  #sync_form_authorize .sync_authorize_type { 
+    flex-direction: column; 
+  }
+  #sync_form_authorize .sync_authorize_id label,
+  #sync_form_authorize .sync_authorize_key label,
+  #sync_form_authorize .sync_authorize_type label { 
+    width: 100%;;
+  }
+  #sync_form_authorize .sync_authorize_id #authorize_login, 
+  #sync_form_authorize .sync_authorize_key #authorize_key,
+  #sync_form_authorize .sync_authorize_type #authorize_endpoints { 
+    width: 89%;
+    max-width: 89%; 
+  }
+
+  #sync_form_captcha .sync_captcha_key, #sync_form_captcha .sync_captcha_key_secret { flex-direction: column; }
+  #sync_form_captcha .sync_captcha_key label, #sync_form_captcha .sync_captcha_key_secret label { width: 100%; }
+  #sync_form_captcha .sync_captcha_key #captcha_key, #sync_form_captcha .sync_captcha_key_secret #captcha_key_secret { width: 89%; max-width: 100%; }
+
+  #sync_paypal_config .setting_sb_key,
+  #sync_paypal_config .setting_pr_key,
+  #sync_paypal_config .setting_type {
+      flex-direction: column;
+  }
+
+  #sync_paypal_config .setting_sb_key label,
+  #sync_paypal_config .setting_pr_key label,
+  #sync_paypal_config .setting_type label {
+      width: 100%;
+  }
+
+  #sync_paypal_config .setting_sb_key .input_sb,
+  #sync_paypal_config .setting_pr_key .input_pr,
+  #sync_paypal_config .setting_type .select_type {
+    width: 89%;
+    max-width: 89%;
+  }
+
+}
+
+/* END of responsive */
