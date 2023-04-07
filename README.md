@@ -16,7 +16,7 @@ When that is imported sucessfully, you can go online to check the frontend and h
 
 NOTE: When setting up your wordpress, make sure you save the database as "wordpress"
 
-#BACKEND
+# BACKEND
 Go to your database, which in my case is "MySQL Database"
 Click on the "wordpress" database
 Look for "import" at the navbar at the top corner
