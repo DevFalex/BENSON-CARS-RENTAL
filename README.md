@@ -1,18 +1,20 @@
 # BENSON-CARS-RENTAL
 A website to rent affordable cars online 
 
-This website is a well functioning cars rental website built and designed with wordpress
+https://bensoncarsrental.netlify.app/
+
+This website is a well-functioning cars rental website built and designed with WordPress
 
 # FRONTEND
 
 The first file which is the "benson_cars_rental.wpress" contains everything about the website
 
-To use it, install wordpress on your server
-After installing wordpress and all is setup, go to plugins then search, install and activate the "All in One plugin"
-When that is done, go to the all in one section at the side bar and click "import" 
-search for this file "benson_cars_rental.wpress" and import it
+To use it, install WordPress on your server
+After installing WordPress and all is setup, go to plugins then search, install, and activate the "All in One plugin"
+When that is done, go to the all-in-one section in the sidebar and click "import" 
+Search for this file "benson_cars_rental.wpress" and import it
 
-When that is imported sucessfully, you can go online to check the frontend and how it looks like
+When that is imported successfully, you can go online to check the frontend and how it looks like
 
 NOTE: When setting up your wordpress, make sure you save the database as "wordpress"
 
